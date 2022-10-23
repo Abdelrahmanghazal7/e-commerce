@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.two {
+    position: relative;
+    top: -28px;
+    left: 120px;
+    border-radius: 50%;
+    background-color: rgb(163, 6, 163);
+    color: white;
+    padding: 0 5px;
+}
+
+.use i {
+    margin: 14px 10px;
+    color: black;
+}
+
+.use i:hover {
+    color: gray;
+}
+
+.body {
+    position: absolute;
+    border: 3px solid black;
+    margin-left: -250px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="search"] {
+    margin-left: 20px;
+    border: none;
+    font-size: medium;
+}
+
+.sear {
+    margin: 5px 10px;
+}
+
+.hm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: 60px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 22px;
+}
+
+.hm a {
+    margin: 0 10px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.hm a:hover {
+    color: rgb(138, 9, 155);
+}
+
+.hoab {
+    background-color: rgb(245, 244, 244);
+    padding: 20px 100px;
+}
+
+.hoab span {
+    color: blueviolet;
+}
+
+.red {
+    background-color: red;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: red;
+}
+
+.green {
+    background-color: green;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: green;
+    margin-top: -2px;
+}
+
+.blue {
+    background-color: blue;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: blue;
+    margin-top: -2px;
+}
+
+.purple {
+    background-color: purple;
+    padding: 0 9px;
+    border-radius: 50%;
+    width: 20px;
+    color: purple;
+    margin-top: -2px;
+}
+
+.colo {
+    display: flex;
+}
+
+.olo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.cont {
+    text-align: center;
+    margin: 70px 0;
+    position: relative;
+    left: 40px;
+}
+
+.ee {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.card {
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    background-color: white;
+    padding: 50px;
+}
+
+.cor {
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(206, 206, 206);
+    border-radius: 3px;
+
+}
+
+.move {
+    margin: 15px 20px;
+}
+
+
+
+.eg {
+    display: flex;
+    overflow-y: hidden;
+
+}
+
+.ney h5 {
+    color: rgb(153, 151, 151);
+}
+
+.cteg {
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+
+.or {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+}
+
+.gor {
+    display: flex;
+
+}
+
+.en {
+    display: flex;
+    flex-direction: column;
+}
+
+.en h5 {
+    margin-left: 70px;
+}
+
+.ter {
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+    width: 205px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+
+.sizo {
+    display: flex;
+    flex-direction: column;
+}
+
+.arkam {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+}
+
+.arkam h5 {
+    color: rgb(115, 14, 119);
+    border: 1px solid rgb(115, 14, 119);
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-top: -10px;
+    margin: 0 5px;
+}
+
+.arkam h5:hover {
+    background-color: rgb(115, 14, 119);
+    color: white;
+}
+
+.arkam i {
+    color: rgb(115, 14, 119);
+    border: 1px solid rgb(115, 14, 119);
+    border-radius: 50%;
+    padding: 11px 14px;
+    margin-top: -10px;
+    margin: 0 5px;
+
+}
+
+.arkam i:hover {
+    background-color: rgb(115, 14, 119);
+    color: white;
+}
+
+.shp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+}
+
+select {
+    padding: 9px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 2px;
+    border: none;
+    top: 0;
+    transition: top ease 0.7s;
+}
+
+select:hover {
+    top: -4px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+.ies {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.rt {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px 60px 20px;
+}
+
+.qq {
+    z-index: -2;
+}
+
+.qw {
+    width: 400px;
+    overflow: hidden;
+}
+
+.qq:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ww {
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.ww h1 {
+    font-size: 40px;
+}
+
+footer {
+    display: block;
+    margin: 0 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 5%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.men {
+    margin: 0 50px;
+    padding: 10px 0;
+}
+
+.men h4 {
+    margin: 10px 0;
+    color: rgb(143, 142, 142);
+}
+
+.en h2 {
+    margin-left: 50px;
+}
+
+footer h5 {
+    color: rgb(143, 142, 142);
+}
+
+footer a {
+    color: purple;
+}
+
+.info i {
+    color: rgb(138, 9, 155);
+    margin: 0 10px;
+    font-size: large;
+}
+
+.info h4 {
+    color: black;
+}
+
+.email {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: rgba(209, 208, 208, 0.87);
+    border-style: double;
+}
+
+.submit {
+    padding: 10px;
+    color: white;
+    background-color: rgb(78, 8, 143);
+    border: none;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.ghazal {
+    padding: 100px;
+    text-align: center;
+}

@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.use i {
+    margin: 10px;
+    color: black;
+}
+
+.use i:hover {
+    color: gray;
+}
+
+.body {
+    border: 3px solid black;
+    margin-left: -150px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="search"] {
+    margin-left: 20px;
+    border: none;
+    font-size: medium;
+}
+
+.two {
+    position: relative;
+    top: -15px;
+    left: 120px;
+    border-radius: 50%;
+    background-color: rgb(163, 6, 163);
+    color: white;
+    padding: 0 5px;
+}
+
+.sear {
+    margin: 0 10px;
+}
+
+.hm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: 60px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 22px;
+}
+
+.hm a {
+    margin: 0 10px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.hm a:hover {
+    color: rgb(138, 9, 155);
+}
+
+.hoab {
+    background-color: rgb(245, 244, 244);
+    padding: 20px 100px;
+}
+
+.hoab span {
+    color: blueviolet;
+}
+
+.tr {
+    margin: 50px 100px;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 20px 0;
+    color: rgb(152, 146, 146);
+}
+
+.tr a {
+    color: blueviolet;
+}
+
+.ret {
+    margin-left: 30px;
+}
+
+.min {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 0 50px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: rgb(135, 12, 184);
+    color: white;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.country {
+    border: 1px solid rgb(196, 196, 196);
+    padding: 20px 70px;
+}
+
+.name {
+    display: flex;
+}
+
+.apply {
+    border: 1px solid rgb(196, 196, 196);
+    padding: 40px 100px;
+    margin-top: -10px;
+}
+
+.apply div {
+    position: relative;
+    right: 70px;
+}
+
+input {
+    margin: 7px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    border-color: rgb(196, 196, 196);
+    text-align: center;
+    border-style: double;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hmo {
+    padding: 7px 130px;
+    border-style: double;
+    border-color: rgb(196, 196, 196);
+
+}
+
+.mh {
+    margin-top: 10px;
+    padding: 7px 156px;
+    border-style: double;
+    border-color: rgb(196, 196, 196);
+}
+
+textarea {
+    border-style: double;
+    border-color: rgb(196, 196, 196);
+    border-radius: 3px;
+}
+
+.ol:hover {
+    top: -2px;
+    box-shadow: 10px 5px 10px gray;
+
+}
+
+table {
+    position: absolute;
+    margin: -150px 30px;
+}
+
+table td {
+    border-top: 1px solid rgb(165, 165, 165);
+    padding: 20px 50px;
+
+}
+
+.tb {
+    border: 1px solid rgb(196, 196, 196);
+    padding: 200px 0;
+    margin-top: -20px;
+}
+
+.bank {
+    position: relative;
+    top: 150px;
+    left: 30px;
+
+}
+
+.bank div {
+    padding: 10px 10px;
+}
+
+
+.bank a {
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+    border-style: double;
+}
+
+.app {
+    border: none;
+}
+
+.app:hover {
+    cursor: pointer;
+}
+
+.code h1 {
+    margin-top: -20px;
+}
+
+.link1 {
+    padding: 7px 134px;
+    color: #6013a8
+}
+
+.link2 {
+    padding: 7px 147px;
+    color: #6013a8
+}
+
+.link3 {
+    padding: 7px 180px;
+    color: #6013a8;
+}
+
+.link4 {
+    margin-top: 20px;
+}
+
+.ol {
+    font-size: 1rem;
+    position: relative;
+    background-color: rgb(138, 9, 155);
+    border: 1px solid rgb(138, 9, 155);
+    padding: 10px;
+    border-radius: 10px;
+    top: 0;
+    transition: top ease 0.3s;
+    text-decoration: none;
+    color: white;
+    padding: 10px 147px;
+}
+
+footer {
+    display: block;
+    margin: 0 50px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 5%;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.men {
+    margin: 0 50px;
+    padding: 10px 0;
+}
+
+.men h4 {
+    margin: 10px 0;
+    color: rgb(143, 142, 142);
+}
+
+.en h2 {
+    margin-left: 50px;
+}
+
+footer h5 {
+    color: rgb(143, 142, 142);
+}
+
+footer a {
+    color: purple;
+}
+
+.info i {
+    color: rgb(138, 9, 155);
+    margin: 0 10px;
+    font-size: large;
+}
+
+.info h4 {
+    color: black;
+}
+
+.email {
+    padding: 10px;
+    border-radius: 3px;
+    border-color: rgba(209, 208, 208, 0.87);
+    border-style: double;
+}
+
+.submit {
+    padding: 10px;
+    color: white;
+    background-color: rgb(78, 8, 143);
+    border: none;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.ghazal {
+    padding: 100px;
+    text-align: center;
+}
