@@ -87,7 +87,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(6, 243, 243);
+    background-color: rgb(28 95 135);
     height: 90vh;
 }
 
@@ -96,7 +96,7 @@ main {
 }
 
 .url p {
-    color: rgb(73, 73, 73);
+    color: rgb(185 185 185);
 }
 
 .find {
